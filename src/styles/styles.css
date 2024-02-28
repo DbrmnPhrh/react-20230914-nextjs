@@ -1,0 +1,64 @@
+html, body {
+  margin: 0;
+  font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.wide {
+  width: 100%;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+
+.margin-t-2 {
+  margin-top: 8px;
+}
+
+.margin-t-3 {
+  margin-top: 12px;
+}
+
+.margin-b-2 {
+  margin-bottom: 8px;
+}
+
+.margin-l-2 {
+  margin-left: 8px;
+}
+
+.margin-h-1 {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.theme_dark {
+  background-color: #222222;
+  color: white;
+}
+
+.theme_blue {
+  background-color: #3ca1ff;
+  color: white;
+}

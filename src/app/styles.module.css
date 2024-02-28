@@ -1,0 +1,31 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+
+.modalContainer {
+  z-index: 1;
+  position: absolute;
+}
+
+.popoverContainer {
+  z-index: 2;
+  position: absolute;
+}
+
+.tooltipContainer {
+  z-index: 3;
+  position: absolute;
+}
