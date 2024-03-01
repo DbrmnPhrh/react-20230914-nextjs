@@ -16,7 +16,8 @@ export const ThemeProvider = ({ children }) => {
   const switchTheme = () => {
     const newThemeIndex = (currentThemeIndex + 1) % themes.length;
     setThemeIndex(newThemeIndex);
-    setTheme(themes[newThemeIndex])
+    setTheme(themes[newThemeIndex]);
+    console.log(currentThemeIndex);
   }
 
   return <ThemeContext.Provider value={{theme, switchTheme}}>{children}</ThemeContext.Provider>
